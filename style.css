@@ -1,5 +1,5 @@
 /* FONTS */
-@font-face {
+/* @font-face {
   font-family: "Bai Jamjuree";
   src: url(../../../Fonts/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
   font-weight: 400;
@@ -8,7 +8,7 @@
   font-family: "Bai Jamjuree";
   src: url(../../../Fonts/Bai_Jamjuree/BaiJamjuree-SemiBold.ttf);
   font-weight: 600;
-}
+} */
 
 /* CUSTOM PROPERTIES */
 :root{
