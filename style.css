@@ -54,6 +54,9 @@ p{
   line-height: 1.6;
   font-size: 1.5rem;
 }
+a{
+  color: var(--dark-grayish-blue);
+}
 
 /* REUSABLE CLASSES */
 .btn{
@@ -199,6 +202,7 @@ footer ul{
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  margin-block: 3rem;
 }
 footer ul > li{
   color: var(--grayish-blue);
@@ -215,7 +219,7 @@ ul.socials{
   font-size: 2.6rem;
 }
 
-/* @media (min-width: 376px) and (max-width: 1440px) { */
+
 /* LAPTOP & DESKTOP STYLES[SCREEN SIZE: 1440px] */
 @media (min-width: 1440px) {
   /* SECTION HEADER */
@@ -346,6 +350,9 @@ ul.socials{
   footer .logo{
     padding-right: 10rem;
     height: 50px;
+  }
+  footer ul{
+    margin-block: 0;
   }
   ul.sitemap{
     display: grid;
